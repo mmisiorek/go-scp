@@ -1,8 +1,13 @@
-go-scp [![Build Status](https://travis-ci.org/hnakamur/go-scp.svg?branch=master)](https://travis-ci.org/hnakamur/go-scp)  [![Go Report Card](https://goreportcard.com/badge/github.com/hnakamur/go-scp)](https://goreportcard.com/report/github.com/hnakamur/go-scp) [![GoDoc](https://godoc.org/github.com/hnakamur/go-scp?status.svg)](https://godoc.org/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
-======
+## WAT
+Offers and implementation for getting files or sending files via SCP in Go.
+This library is effectivly wrapped by https://github.com/EugenMayer/go-sshclient, you should use `go-ssclient` in your project since it provides an convenient
+interface for SCP and SSH
 
-A scp client library written in Go.
-The remote server must have the scp command.
+## Example
+See https://github.com/EugenMayer/go-sshclient/blob/master/scpwrapper/from_remote.go#L11
+
+## Credits
+Forked on the great work of https://github.com/hnakamur/go-scp
 
 ## License
 MIT
