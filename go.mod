@@ -1,4 +1,4 @@
-module github.com/eugenmayer/go-scp
+module github.com/mmisiorek/go-scp
 
 go 1.14
 
